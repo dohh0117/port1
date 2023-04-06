@@ -31,4 +31,37 @@ var scren01Num =1;
 
  })
 
+  //box4 slider
+ var current=0;
+    $('.btn1').click(function(){
+        
+       current = current+1
+
+        if(current == 3){
+            current=0;
+        }
+        slide(current)
+    })
+    $('.btn2').click(function(){
+        
+        current = current-1
+ 
+         if(current == -1){
+             current=3;
+         }
+         slide(current)
+     })
+
+    function slide(i){
+        var pos =i*(-340)+'px';
+        $('.veiw').animate({left:pos},700)
+        // if(current=i)return;
+        // var currentEl = $('slider>div').eq(current)
+        // var nextEl =$('slider>div').eq(i);
+        // currentEl.css({left:'100px'}).stop().animate({left:'-500px'})
+        // nextEl.css({left:'-500px'}).stop().animate({left:'100px'})
+        // current=i;
+
+    }
+
 });
