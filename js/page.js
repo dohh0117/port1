@@ -16,7 +16,7 @@ $('.btn li').click(function(){
         $('.skill_btn').show().css({ left: '50px' }).animate({ top: '80px', left: '-70px' })
         $('.project_btn').show().css({ left: '50px' }).animate({ top:'80px', left: '230px' }) 
         $('.thank_you').show().css({left:'50px'}).animate({ top:'170px',left: '-25px' }) 
-        $('.contack_btn').show().css({left:'50px'}).animate({ top:'190px',left: '150px' }) 
+        $('.contact_btn').show().css({left:'50px'}).animate({ top:'190px',left: '150px' }) 
 
         
     });
@@ -36,8 +36,8 @@ $('.btn li').click(function(){
         $('.thank_you').animate({ top: '50px',left: '50px' }, function () {
             $('.thank_you').hide();
         }) 
-        $('.contack_btn').animate({top: '50px',left: '50px' }, function () {
-            $('.contack_btn').hide();
+        $('.contact_btn').animate({top: '50px',left: '50px' }, function () {
+            $('.contact_btn').hide();
         }) 
 
         

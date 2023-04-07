@@ -27,7 +27,9 @@ body{
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
-    background-color: rgba(93, 95, 212, 0.61);
+    color: #fff;
+    font-size: 10px;
+    background-color: rgba(23, 81, 121, 0.61);
     /* border: 1px solid #ccc; */
     transition: all 0.5s;
     box-sizing: border-box;
@@ -55,7 +57,7 @@ body{
     top: 170px;
     left: -25px;}
 
-.contack_btn{
+.contact_btn{
     position: absolute;
     top: 190px;
     left: 150px;
@@ -94,7 +96,7 @@ body{
     width: 82px;
     height: 82px;
     border-radius:50%;
-    background-color: steelblue;
+  background-color: rgba(23, 81, 121, 0.61);
 }
 .ttl_box{
     margin:200px 0 0 0px;
@@ -437,7 +439,7 @@ body{
     border-radius:  0 0 20% 0;
     background:url(../images/mainimg01.png);
 }
-.contack_box{
+.contact_box{
 margin-left: 30vw;
 padding: 10px 0 0 30px;
 box-sizing: border-box;
@@ -445,7 +447,7 @@ width: 483px;
 height: 530px;
 border: 2px solid #ccc;
 }
-.contack_ttl{
+.contact_ttl{
     font-size: 50px;
     color: #666;
 }
