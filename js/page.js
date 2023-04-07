@@ -8,7 +8,46 @@ $('.btn li').click(function(){
         scrollLeft:tl
     });
 });
+//버튼
+    $('.sub_btn').hide();
+    $('.btn').mouseenter(function () {
+        $('.main_btn').show().animate({ top: '-20px', left:'-30px' }) 
+        $('.info_btn').show().css({left:'50px'}).animate({ top: '-20px',left: '180px' }) 
+        $('.skill_btn').show().css({ left: '50px' }).animate({ top: '80px', left: '-70px' })
+        $('.project_btn').show().css({ left: '50px' }).animate({ top:'80px', left: '230px' }) 
+        $('.thank_you').show().css({left:'50px'}).animate({ top:'170px',left: '-25px' }) 
+        $('.contack_btn').show().css({left:'50px'}).animate({ top:'190px',left: '150px' }) 
 
+        
+    });
+    $('.sub_btn').click(function () {
+        $('.main_btn').animate({ top: '50px', left: '30px' }, function () {
+           $('.main_btn').hide()
+        }) 
+        $('.info_btn').animate({ top: '50px',left: '50px' }, function () {
+            $('.info_btn').hide()
+        }) 
+        $('.skill_btn').animate({ left: '50px' }, function () {
+            $('.skill_btn').hide();
+        })
+        $('.project_btn').animate({ left: '50px' }, function () {
+            $('.project_btn').hide();
+        }) 
+        $('.thank_you').animate({ top: '50px',left: '50px' }, function () {
+            $('.thank_you').hide();
+        }) 
+        $('.contack_btn').animate({top: '50px',left: '50px' }, function () {
+            $('.contack_btn').hide();
+        }) 
+
+        
+    });
+    // $('.sub_btn').mouseleave(function () {
+    //     //$('.sub_btn').css({top:'50px',left:'50px'}).fadeOut()
+    // })
+    
+    
+    
 var scren01Num =1;
  $(window).scroll(function(){
     var scrollTop = $(document).scrollTop();
@@ -47,7 +86,7 @@ var scren01Num =1;
         current = current-1
  
          if(current == -1){
-             current=3;
+             current=2;
          }
          slide(current)
      })
