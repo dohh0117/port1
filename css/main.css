@@ -135,8 +135,16 @@ body{
 .box2_in{
     width: 90vw;
     height: 530px;
+    border: 2px solid #ccc;
     position: absolute;
     top: 150px; left:0px;  
+}
+.profile_img{
+    float: left;
+    width: 272px;
+    height: 282px;
+    margin: 75px 0 0 120px;
+    background-color: turquoise;
 }
 .ttl_box2{
     float: right;
