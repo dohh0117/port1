@@ -1,12 +1,12 @@
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
 } 
 #wrap .box{
     width: 100vw;
-    height: 1000px;
+    height: 100vh;
     padding-top: 100px;
     /* border: 1px solid #000; */
     box-sizing: border-box;
@@ -137,7 +137,7 @@ body{
 .box2_in{
     width: 90vw;
     height: 530px;
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
     position: absolute;
     top: 150px; left:0px;  
 }
